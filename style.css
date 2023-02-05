@@ -777,12 +777,13 @@ button:hover {
   }
 
   #grande {
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
   }
   #titolo {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
+    padding: 0%;
   }
   .content {
     flex-direction: column;
