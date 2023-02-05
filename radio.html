@@ -70,6 +70,15 @@ window.addEventListener('load', init);
           ><img id="logo" src="./img/logoWWW.png" alt="MENU"
         /></a>
       </div>
+
+      <script>
+        $(document).ready(function () {
+          //When btn is clicked
+          $(".btn-responsive-menu").click(function () {
+            $("#mainmenu").toggleClass("show");
+          });
+        });
+      </script>
     </nav>
 
     <!-- PRIMA RIGA -->
