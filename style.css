@@ -195,6 +195,7 @@ a:hover {
   #mainmenu {
     width: 100%;
     float: left;
+    background-color: #ffffff;
   }
   #mainmenu {
     display: none;
