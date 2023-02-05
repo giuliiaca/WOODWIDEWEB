@@ -777,7 +777,8 @@ button:hover {
   }
 
   #grande {
-    font-size: 5rem;
+    font-size: 3.5rem;
+    text-align: center;
   }
   #titolo {
     text-align: center;
