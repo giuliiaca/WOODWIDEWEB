@@ -1,7 +1,7 @@
 // Dichiarazione variabili
 
-let bottoneNavbar = document.querySelector(".icon-container img");
-let dropdownDiv = document.querySelector(".dropdown");
+let bottoneNavbar = document.querySelector(".btn-responsive-menu img");
+let dropdownDiv = document.querySelector(".show");
 let navItem = document.querySelectorAll(".nav-item, .close-icon");
 // Dichairazione funzioni
 
