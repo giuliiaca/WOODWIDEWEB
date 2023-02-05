@@ -859,6 +859,10 @@ button:hover {
     color: #000000;
     cursor: default;
   }
+
+  #onair p {
+    color: #000000;
+  }
 }
 
 /*SEZIONE WHAT */
