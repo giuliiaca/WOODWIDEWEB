@@ -132,6 +132,56 @@ a:hover {
   height: 24px;
 }
 
+.dropdown {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000428; /* fallback for old browsers */
+  background: #53b4ba;
+  z-index: 4;
+}
+.dropdown {
+  font-size: 19px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.btn-responsive-menu {
+  display: none;
+  float: left;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-right: auto;
+}
+
+.show {
+  display: block !important;
+}
+
+@media (max-width: 767px) {
+  /* Structure  < 767 */
+  #mainmenu {
+    width: 100%;
+    float: left;
+  }
+  #mainmenu {
+    display: none;
+  }
+  #mainmenu a {
+    float: none;
+  }
+
+  .btn-responsive-menu {
+    display: block;
+  }
+}
+
 /* #logo a {
   text-decoration: none;
 } */
