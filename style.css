@@ -132,7 +132,7 @@ a:hover {
   height: 24px;
 }
 
-.dropdown {
+/* .dropdown {
   display: none;
   position: fixed;
   left: 0;
@@ -142,7 +142,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #000428; /* fallback for old browsers */
+  background: #000428;
   background: #53b4ba;
   z-index: 4;
 }
@@ -150,22 +150,17 @@ a:hover {
   font-size: 19px;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
-}
+} */
 #mainmenu {
   width: 100%;
   float: left;
-  background: #888;
 }
 #mainmenu a {
-  color: #fff;
   display: block;
   font: 14px;
   padding: 14px 20px;
-  font-family: oswald;
+  font-family: "Gerstner Programm", sans-serif;
   text-transform: uppercase;
-}
-#mainmenu a:hover {
-  background: #666;
 }
 
 .btn-responsive-menu {
@@ -188,13 +183,12 @@ a:hover {
   }
 }
 
-@media (min-width: 768px) and (max-width: 980px) {
-  /* Structure 768 to 1000 */
+/* @media (min-width: 768px) and (max-width: 980px) {
   #mainmenu {
     width: 100%;
     float: left;
   }
-}
+} */
 
 @media (max-width: 767px) {
   /* Structure  < 767 */
