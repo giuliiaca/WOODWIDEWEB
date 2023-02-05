@@ -154,6 +154,7 @@ window.addEventListener('load', init);
 
         <script>
           var audio;
+          var isPlaying = false;
           function playAudio() {
             if (!audio) {
               audio = new Audio("./words_suoni/Fungus_RADIO 2bis.mp3");
@@ -167,8 +168,15 @@ window.addEventListener('load', init);
               },
               false
             );
-            audio.play();
+            return audio.paused ? audio.play() : audio.pause();
           }
+
+          // audio.onplaying = function () {
+          //   isPlaying = true;
+          // };
+          // audio.onpause = function () {
+          //   isPlaying = false;
+          // };
 
           function pauseAudio() {
             audio.pause();
@@ -191,8 +199,8 @@ window.addEventListener('load', init);
         <script src="https://unpkg.com/wavesurfer.js"></script>
         <div id="waveform0"></div>
         <!-- <button class="live" onclick="wavesurfer0.getCurrentTime(30)">
-				Live
-			</button> -->
+          Live
+        </button> -->
         <script>
           var wavesurfer0 = WaveSurfer.create({
             container: "#waveform0",
