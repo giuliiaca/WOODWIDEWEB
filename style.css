@@ -151,6 +151,23 @@ a:hover {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
+#mainmenu {
+  width: 100%;
+  float: left;
+  background: #888;
+}
+#mainmenu a {
+  color: #fff;
+  display: block;
+  font: 14px;
+  padding: 14px 20px;
+  font-family: oswald;
+  text-transform: uppercase;
+}
+#mainmenu a:hover {
+  background: #666;
+}
+
 .btn-responsive-menu {
   display: none;
   float: left;
@@ -162,6 +179,21 @@ a:hover {
 
 .show {
   display: block !important;
+}
+@media (min-width: 1200px) {
+  /* Structure > 1200px */
+  #mainmenu {
+    width: 100%;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+  /* Structure 768 to 1000 */
+  #mainmenu {
+    width: 100%;
+    float: left;
+  }
 }
 
 @media (max-width: 767px) {
