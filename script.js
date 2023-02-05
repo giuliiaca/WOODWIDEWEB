@@ -1,10 +1,3 @@
-$(document).ready(function () {
-  //When btn is clicked
-  $(".btn-responsive-menu").click(function () {
-    $("#mainmenu").toggleClass("show");
-  });
-});
-
 // Dichiarazione variabili
 
 let bottoneNavbar = document.querySelector(".icon-container img");
