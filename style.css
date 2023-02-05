@@ -193,11 +193,14 @@ a:hover {
 @media (max-width: 767px) {
   /* Structure  < 767 */
   #mainmenu {
-    width: 100%;
+    width: 100vw;
+    min-width: 100%;
+    height: 100vh;
+    min-height: 100%;
     position: relative;
     top: 25%;
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin-top: 30px;
   }
   #mainmenu {
