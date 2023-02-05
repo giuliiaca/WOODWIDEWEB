@@ -855,6 +855,10 @@ button:hover {
     font-size: 1.5rem;
     column-count: 1;
   }
+  a {
+    color: #000000;
+    cursor: default;
+  }
 }
 
 /*SEZIONE WHAT */
