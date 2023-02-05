@@ -855,7 +855,7 @@ button:hover {
     font-size: 1.5rem;
     column-count: 1;
   }
-  a {
+  .play p {
     color: #000000;
     cursor: default;
   }
