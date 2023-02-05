@@ -272,6 +272,7 @@ a:hover {
   padding: 0;
   text-align: center;
   font-size: 7.5rem;
+  width: 100%;
 }
 
 #grande {
@@ -770,6 +771,11 @@ button:hover {
   .scritta {
     margin-top: -10%;
   }
+
+  .scritta p {
+    width: 100%;
+  }
+
   #grande {
     font-size: 5rem;
   }
