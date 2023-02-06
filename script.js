@@ -1,3 +1,9 @@
+$(document).ready(function () {
+  $(".btn").click(function () {
+    $(".text-container").toggleClass("show");
+  });
+});
+
 // Dichiarazione variabili
 
 let bottoneNavbar = document.querySelector(".icon-container img");

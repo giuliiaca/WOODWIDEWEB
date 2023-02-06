@@ -7,7 +7,6 @@ body {
   background-repeat: repeat;
   font-family: "gerstner_programmregular", sans-serif;
   text-transform: uppercase;
-  /* cursor: url("./img/cursor.svg") */
 }
 
 h2,
@@ -132,102 +131,6 @@ a:hover {
   height: 24px;
 }
 
-/* .dropdown {
-  display: none;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #000428;
-  background: #53b4ba;
-  z-index: 4;
-}
-.dropdown {
-  font-size: 19px;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-} */
-#mainmenu {
-  width: 100%;
-  float: left;
-}
-#mainmenu a {
-  display: block;
-  font: 14px;
-  padding: 14px 20px;
-  font-family: "gerstner_programmregular", sans-serif;
-  text-transform: uppercase;
-}
-
-.btn-responsive-menu {
-  display: none;
-  float: left;
-  cursor: pointer;
-  padding-left: 20px;
-  padding-top: 10px;
-  margin-right: auto;
-}
-
-.show {
-  display: block !important;
-}
-@media (min-width: 1200px) {
-  /* Structure > 1200px */
-  #mainmenu {
-    width: 100%;
-    float: left;
-  }
-}
-
-/* @media (min-width: 768px) and (max-width: 980px) {
-  #mainmenu {
-    width: 100%;
-    float: left;
-  }
-} */
-
-@media (max-width: 767px) {
-  /* Structure  < 767 */
-  #mainmenu {
-    width: 100vw;
-    min-width: 100%;
-    height: 100vh;
-    min-height: 100%;
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: left;
-    margin-top: 30px;
-  }
-  #mainmenu {
-    display: none;
-  }
-  #mainmenu a {
-    float: none;
-  }
-
-  .btn-responsive-menu {
-    display: block;
-  }
-
-  .show {
-    height: 0%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.9);
-    overflow-y: hidden;
-    transition: 0.5s;
-  }
-}
-
 /* #logo a {
   text-decoration: none;
 } */
@@ -249,24 +152,6 @@ a:hover {
   font-size: 20px;
   padding-right: 50px;
 }
-
-/* PROVA COORDINATA */
-
-/* .content {
-  /* -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%); */
-/* } */
-
-/* PRIMA PROVA DI GRIGLIA */
-/* .grid-container  {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-template-rows: repeat(auto-fill, minmax(40px, 1fr)); */
-/* stiamo inserendo l'opzione responsive che permette agli elementi nella griglia di cambiare le loro dimensioni al variare della grandezza dello schermo
-  la frazione è un'unità di misura che divide lo schermo in parti, abbiamo dato la funzione che dopo 300px la foto sottostante salga nella riga appena lo spazio dello schermo lo permette */
-/* grid-gap: 2em;
-} */
 
 * {
   box-sizing: border-box;
@@ -324,7 +209,6 @@ a:hover {
  font-size: 5rem;
 } */
 
-/* PRIMA SCHERMATA - TESTI DI INTRODUZIONE E BO*/
 #titolo {
   font-family: "gerstner_programmregular", sans-serif;
   padding: 0;
@@ -332,11 +216,6 @@ a:hover {
   font-size: 40px;
 }
 
-/* .menu ul {
-  list-style-type: none;
-  margin-left: 30px;
-  padding: 0;
-} */
 .micelio {
   margin-top: 100px;
   padding: 0;
@@ -402,48 +281,6 @@ section p {
   display: flex;
 }
 
-/* pulsante avanti e indietro */
-/* .prev, .next {
- cursor: pointer;
- position: absolute;
- top: 50%;
- width: auto;
- margin-bottom: 22px;
- padding: 16px;
- color: white;
- font-weight: bold;
- font-size: 18px;
- transition: 0.6s ease;
-} */
-
-/* .slideshow-container a {
-  text-decoration: none;
-} */
-
-/* Posizione del button next e  */
-/* .next {
- right: 0;
- border-radius: 3px 0 0 3px;
-} */
-
-/* al passaggio del mouse sopra la freccina, viene aggiunto un background più scuro e opaco */
-/* .prev:hover, .next:hover {
- background-color: rgba(0,0,0,0.8);
-}
-
-.numbertext {
-  font-family: "Suisse Int'l Mono", sans-serif;
-} */
-
-/* Number text della galleria (1/3 etc) */
-/* .numbertext {
- color: #f2f2f2;
- font-size: 12px;
- padding: 8px 12px;
- position: absolute;
- top: 0;
-} */
-
 .prototipo {
   margin-top: 0;
   padding: 0;
@@ -499,12 +336,6 @@ section p {
   padding: 0;
 }
 
-/* .didascalia p {
-  align-items: center;
-  align-self: center;
-  /* align-content: center; */
-/* } */
-
 .introduttivo p {
   font-size: 13px;
   padding-left: 8px;
@@ -519,10 +350,6 @@ section p {
   margin-top: 7px;
   width: 100%;
 }
-
-/* .menu li:hover {
-  background-color: #e6e6e6;
-} */
 
 .aside {
   background-color: #ffffff;
@@ -552,22 +379,6 @@ section p {
 #nomeartefatto {
   text-align: center;
 }
-
-/* GRIGLIETTA CON FOTO E TESTI */
-/* .imgs img {
-  margin: 0;
-  padding: 0px;
-  width: 100%
-}
-
-.imgs p {
-  margin: 0;
-  padding: 0px;
-  font-size: 12px;
-}
-
-.imgs audio {
-width: 100%;} */
 
 #scrittawelcome {
   align-items: center;
@@ -863,198 +674,10 @@ button:hover {
   #onair p {
     color: #000000;
   }
-
-  .btn-responsive-menu {
-    display: block;
-  }
-
-  .show {
-    height: 0%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.9);
-    overflow-y: hidden;
-    transition: 0.5s;
-  }
-}
-
-/*SEZIONE WHAT */
-#what {
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  margin-top: -5px;
-  background: #808080;
-  padding: 4rem 2rem;
-}
-
-#what div {
-  flex-direction: column;
-  display: flex;
-  width: 100%;
-  padding: 12px;
-  margin-top: 80px;
-}
-
-#what p {
-  margin-left: 20px;
-}
-#what img {
-  display: flex;
-  width: 100%;
-}
-
-#what h2 {
-  font-weight: bold;
-  margin-left: 20px;
-}
-
-/*SEZIONE WHY */
-#why {
-  padding: 0 24px;
-}
-#why h2 {
-  font-weight: bolder;
-  text-align: left;
-}
-.why-container {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem 3rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.why-item {
-  background: #808080;
-  margin: 24px 12px;
-  width: 100%;
-}
-.why-item h3 {
-  font-weight: bolder;
-  text-align: center;
-}
-.why-item p {
-  margin: 12px;
-}
-.why-item img {
-  width: 100%;
-}
-
-.collegamento-opere {
-  z-index: 3;
-}
-
-.collegamento-opere h3 {
-  color: white;
-  font-weight: bolder;
-  text-align: center;
-}
-
-#scrittacollegamento {
-  text-decoration: none;
-}
-
-/*SEZIONE HOW (EVENTS)*/
-#how {
-  padding: 0 24px;
-}
-#how h2 {
-  font-weight: bolder;
-  text-align: left;
-}
-.how-container {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem 3rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.how-item {
-  background: white;
-  margin: 24px 12px;
-  width: 100%;
-}
-.how-item h3 {
-  font-weight: bolder;
-  text-align: center;
-}
-.how-item p {
-  margin: 12px;
-}
-
-.how-item img {
-  width: 100%;
-}
-
-/*SEZIONE ABOUT (NUOVA)*/
-#about {
-  padding: 0 24px;
-}
-#about h2 {
-  font-weight: bolder;
-  text-align: left;
-}
-.about-container {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem 3rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-item {
-  background: white;
-  margin: 24px 12px;
-  width: 100%;
-}
-.about-item h3 {
-  font-weight: bolder;
-  text-align: center;
-}
-.about-item p {
-  margin: 12px;
-}
-
-.about-item img {
-  width: 100%;
-}
-
-/* footer */
-#footer {
-  display: flex;
-  flex-direction: column;
-  margin-top: -5px;
-  background: #808080;
-  font-size: 1.5rem;
-  width: 100%;
-}
-
-#footer div {
-  flex-direction: column;
-  display: flex;
-  width: 100%;
-  padding: 12px 0;
-}
-
-#footer div a {
-  text-align: center;
-  text-decoration: none;
-  text-transform: none;
-  color: black;
-}
-
-#mail {
-  margin-top: 10px;
 }
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-#conversazione {
+/* #conversazione {
   padding: 24px;
 }
 
@@ -1064,7 +687,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 #radio {
   padding: 0 24px;
@@ -1096,128 +719,17 @@ button:hover {
 /* qui stiamo facendo responsive abbiamo cambiato la flex direction da riga sopra i 840px a colonna sotto di essi
 al di sotto di 840 px passiamo da avere una disposizione a colonne a una disposizione a righe*/
 @media only screen and (min-width: 840px) {
-  .why-container,
-  .how-container,
-  .about-container,
-  .radio-container,
-  #what,
-  #landing,
-  #footer {
+  .radio-container {
     flex-direction: row;
-  }
-
-  #what div,
-  #landing div,
-  #footer div {
-    max-width: 50%;
-  }
-  #footer div {
-    text-align: left;
   }
 }
 
 @media (max-width: 800px) {
   .slideshow-container {
-    max-width: 90%;
-  }
-  #what h2 {
-    font-size: 1.5rem;
-  }
-  #why h2,
-  #how h2,
-  #about h2 {
-    font-size: 2.5rem;
-  }
-  #what p,
-  #footer {
-    font-size: 1rem;
+    max-width: 100%;
   }
 
-  #landing p {
-    margin-left: 1rem;
-  }
-  .collegamento-opere h3 {
-    font-size: 1.5rem;
-  }
-  .opere-title {
-    opacity: 1;
-  }
   [class*="col-"] {
     width: 100%;
   }
-}
-
-/* animazioni */
-.bounce-in-top {
-  animation: bounce-in-top 2s ease-in-out both;
-}
-@keyframes bounce-in-top {
-  0% {
-    transform: translateY(-500px);
-    animation-timing-function: ease-in;
-    opacity: 0;
-  }
-  35% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  54% {
-    transform: translateY(-65px);
-    animation-timing-function: ease-in;
-  }
-  70% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-  82% {
-    transform: translateY(-28px);
-    animation-timing-function: ease-in;
-  }
-  93% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-  97% {
-    transform: translateY(-8px);
-    animation-timing-function: ease-in;
-  }
-  100% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-}
-
-/* Fading animation dei pulsanti avanti-indietro della galleria */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* questo è il secondo foglio css */
-.darkmode {
-  background-color: #f4ce2f;
-}
-.darkmode .navbar {
-  background-color: #dd8a2e;
-}
-.darkmode .dropdown {
-  background-color: #dd8a2e;
-  color: white;
-}
-.darkmode .best-container {
-  color: #dd8a2e;
-}
-
-.darkmode .events-container {
-  color: #dd8a2e;
 }
