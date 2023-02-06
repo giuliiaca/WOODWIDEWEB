@@ -131,6 +131,20 @@ a:hover {
   height: 24px;
 }
 
+.icon2-container {
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-right: auto;
+  min-width: 24px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.icon2-container img {
+  height: 24px;
+}
+
 /* #logo a {
   text-decoration: none;
 } */
@@ -151,6 +165,57 @@ a:hover {
   font-family: "gerstner_programmregular", sans-serif;
   font-size: 20px;
   padding-right: 50px;
+}
+
+/* MENU A TENDINA */
+
+input.jm-menu-btn,
+input[type="checkbox"].jm-menu-btn ~ .text-container {
+  display: none;
+}
+input[type="checkbox"]:checked.jm-menu-btn ~ .text-container {
+  display: block;
+}
+label.jm-menu-btn {
+  color: #000000;
+  display: block;
+  padding: 16px 32px;
+}
+
+.navbar li,
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar a {
+  display: inline-block;
+  padding: 16px 32px;
+}
+
+.navbar ul ul {
+  display: none;
+}
+
+/* .jm-icon-menu::before {
+  content: "\2630";
+} */
+@media (min-width: 768px) {
+  .navbar li {
+    display: inline-block;
+  }
+  .navbar a {
+    padding: 16px;
+  }
+
+  input.jm-menu-btn,
+  label.jm-menu-btn {
+    display: none;
+  }
+  .text-container,
+  input[type="checkbox"].jm-menu-btn ~ .text-container {
+    display: block;
+  }
 }
 
 * {
