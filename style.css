@@ -600,7 +600,7 @@ button:hover {
     margin-top: 55%;
   }
   .scritta {
-    margin-top: -10%;
+    margin-top: 0;
   }
 
   .scritta p {
@@ -677,17 +677,6 @@ button:hover {
 }
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-/* #conversazione {
-  padding: 24px;
-}
-
-#conversazione p {
-  font-size: 20px;
-  margin-top: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 #radio {
   padding: 0 24px;
