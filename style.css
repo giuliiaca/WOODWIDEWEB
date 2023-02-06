@@ -477,7 +477,7 @@ section p {
 }
 
 .introduttivo p {
-  font-size: 13px;
+  font-size: 15px;
   padding-left: 8px;
   margin-bottom: 7px;
   font-family: "suisse_intl_monoregular", sans-serif;
@@ -809,6 +809,7 @@ button:hover {
   .play p {
     color: #000000;
     cursor: default;
+    font-size: 1.5rem;
   }
 
   #onair p {
