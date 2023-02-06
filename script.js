@@ -1,8 +1,8 @@
-$(document).ready(function () {
-  $(".btn").click(function () {
-    $(".text-container").toggleClass("show");
-  });
-});
+// $(document).ready(function () {
+//   $(".btn").click(function () {
+//     $(".text-container").toggleClass("show");
+//   });
+// });
 
 // Dichiarazione variabili
 

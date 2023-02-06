@@ -31,8 +31,7 @@
         /></a>
       </div>
     </nav> -->
-
-    <nav class="navbar">
+    <!-- <nav class="navbar">
       <label for="menu-btn" class="jm-menu-btn jm-icon-menu icon2-container"
         ><img src="./img/hamburger_icon.png" alt="hamburger"
       /></label>
@@ -58,8 +57,49 @@
         <a href="./index.html"
           ><img id="logo" src="./img/logoWWW.png" alt="logo"
         /></a>
-      </div>
-    </nav>
+      </div> -->
+
+    <header class="header">
+      <nav class="navbar">
+        <div class="hamburger icon2-container">
+          <img src="./img/hamburger_icon.png" alt="hamburger" />
+        </div>
+        <ul class="text-container">
+          <li class="nav-item">
+            <a href="#woodwideweb" class="nav-link"><p>WOODWIDEWEB</p></a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link"><p>EXPERIENCE</p></a>
+          </li>
+          <li class="nav-item">
+            <a href="./radio.html" class="nav-link"><p>RADIO</p></a>
+          </li>
+          <li class="nav-item">
+            <a href="./hyphastudio.html#hyphastudio" class="nav-link"
+              ><p>HYPHA STUDIO</p></a
+            >
+          </li>
+        </ul>
+
+        <div class="icon-container">
+          <a href="./index.html"
+            ><img id="logo" src="./img/logoWWW.png" alt="logo"
+          /></a>
+        </div>
+      </nav>
+    </header>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".text-container");
+
+      hamburger.addEventListener("click", mobileMenu);
+
+      function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      }
+    </script>
 
     <div class="row">
       <div class="col-12 scritta">
